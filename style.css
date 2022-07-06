@@ -3,21 +3,15 @@
     padding: 0;
   }
 
-div {
+body {
     font-size: 40px;
+    background-color: red;
 }
 
-@media (max-width: 359px) {
-    body {
-        background-color: red;
-    }
+div.item2, div.item3, div.item4, div.item5 {
+    display: none;
 
-    div.item2, div.item3, div.item4, div.item5 {
-        display: none;
-    }
-}
-
-@media (min-width: 360px) and (max-width: 639px) {
+@media (min-width: 360px) {
     body {
         background-color: green;
     }
@@ -27,7 +21,7 @@ div {
     }
 }
 
-@media (min-width: 640px) and (max-width: 1023px) {
+@media (min-width: 640px) {
     body {
         background-color: blue;
     }
@@ -37,7 +31,7 @@ div {
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1400px) {
+@media (min-width: 1024px) {
     body {
         background-color: grey;
     }
@@ -47,7 +41,7 @@ div {
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1399px) {
+@media (min-width: 1024px) {
     body {
         background-color: grey;
     }
