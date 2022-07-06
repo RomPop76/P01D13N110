@@ -10,14 +10,19 @@ body {
 
 div.item2, div.item3, div.item4, div.item5 {
     display: none;
+    }
 
 @media (min-width: 360px) {
     body {
         background-color: green;
     }
 
-    div.item1, div.item3, div.item4, div.item5 {
+    div.item1 {
         display: none;
+    }
+
+    div.item2 {
+        display: block;
     }
 }
 
@@ -26,8 +31,12 @@ div.item2, div.item3, div.item4, div.item5 {
         background-color: blue;
     }
 
-    div.item1, div.item2, div.item4, div.item5 {
+    div.item2 {
         display: none;
+    }
+
+    div.item3 {
+        display: block;
     }
 }
 
@@ -36,9 +45,12 @@ div.item2, div.item3, div.item4, div.item5 {
         background-color: grey;
     }
 
-    div.item1, div.item2, div.item3, div.item5 {
+    div.item3 {
         display: none;
     }
+
+    div.item4 {
+        display: block;
 }
 
 @media (min-width: 1024px) {
@@ -46,10 +58,12 @@ div.item2, div.item3, div.item4, div.item5 {
         background-color: grey;
     }
 
-    div.item1, div.item2, div.item3, div.item5 {
+    div.item4 {
         display: none;
     }
-}
+
+    div.item5 {
+        display: block;
 
 @media (min-width: 1400px) {
     body {
